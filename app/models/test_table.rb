@@ -4,8 +4,4 @@ class TestTable < ActiveRecord::Base
     self.status == 'active'
   end
 
-  def delete?
-    self.status == 'delete'
-  end
-
 end
