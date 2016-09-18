@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/sites/jp.ecumerun.com/webapps/current/
+hooks:
+
+  ApplicationStart:
+    - location: scripts/test.sh
+      timeout: 300
