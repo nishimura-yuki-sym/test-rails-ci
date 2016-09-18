@@ -1,4 +1,4 @@
 #!/bin/bash
-bundle install --path=./vendor/bundle
+~/.rbenv/shims/bundle install --path=./vendor/bundle
 
-bundle exec rake test
+~/.rbenv/shims/bundle exec rake test
